@@ -50,3 +50,12 @@ form h1 {
     background-color: #EBEBE5;
     color: #999999;
 }
+
+#input-cep::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#input-cep {
+    -moz-appearance: textfield;
+}
